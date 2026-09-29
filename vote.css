@@ -1,0 +1,112 @@
+/* Full page */
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("https://www.shutterstock.com/image-vector/election-commission-india-logo-editorial-260nw-2395185111.jpg");
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* CARD */
+.card {
+    width: 400px;
+    padding: 35px 40px;
+
+    background: rgba(247, 246, 246, 0.88);
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.45);
+
+    text-align: center;
+
+    backdrop-filter: blur(8px);
+}
+
+
+/* Heading */
+.card h3 {
+    margin: 0 0 25px 0;
+
+    font-size: 27px;
+    color: #123c70;
+
+    text-align: center;
+}
+
+
+/* Name and Age inputs */
+.card input {
+    display: block;
+
+    width: 100%;
+    padding: 13px;
+
+    margin: 12px 0;
+
+    border: 2px solid #8bc51f;
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+
+    outline: none;
+}
+
+
+/* Input when clicked */
+.card input:focus {
+    border-color: #1769aa;
+}
+
+
+/* Answer */
+.card p {
+    margin: 20px 0;
+
+    color: #c62828;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+
+/* Submit button */
+.card button {
+    display: block;
+
+    width: 100%;
+    padding: 13px;
+
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #8bc51f;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* Button hover */
+.card button:hover {
+    background: #6fa817;
+}
